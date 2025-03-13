@@ -19,19 +19,19 @@ output:
 
 - University of Auckland | Waipapa Taumata Rau (Auckland, NZ)
     - 10 April, 2025
-    - [Slides (PDF)]() (coming soon...)
+    - [Slides (PDF)]() coming soon...
 - University of Otago | Ōtākou Whakaihu Waka (Dunedin, NZ)
     - 14 & 15 April, 2025
-    - [Slides (PDF)]() (coming soon...)
+    - [Slides (PDF)]() coming soon...
 - University of Canterbury | Te Whare Wānanga o Waitaha (Christchurch, NZ)
     - 16 & 17 April, 2025
-    - [Slides (PDF)]() (coming soon...)
+    - [Slides (PDF)]() coming soon...
 - Victoria University | Te Herenga Waka (Wellington, NZ)
     - 23 & 24 April, 2025
-    - [Slides (PDF)]() (coming soon...)
+    - [Slides (PDF)]() coming soon...
 - Massey University | Te Kunenga ki Pūrehuroa (Palmerston North, NZ)
     - 28 & 29 April, 2025
-    - [Slides (PDF)]() (coming soon...)
+    - [Slides (PDF)]() coming soon...
 
     
 
