@@ -11,9 +11,15 @@ output:
     css: stylesheet.css
 ---
 
-## Evaluating NLP tools designed to assist instructors with formative assessment for large-enrollment STEM classes
+## Seminar Topics
+
+### Evaluating NLP tools designed to assist instructors with formative assessment for large-enrollment STEM classes
 
 *Abstract.* This talk seeks to articulate the benefit of free-response tasks and timely formative assessment feedback, a roadmap for developing human-in-the-loop natural language processing (NLP) assisted feedback, and results from a pilot study establishing proof of principle. If we are to pursue Statistics and Data Science Education across disciplines, we will surely encounter both opportunity and necessity to develop scalable solutions for pedagogical best practices. Research suggests that “write-to-learn” tasks improve learning outcomes, yet constructed-response methods of formative assessment become unwieldy when class sizes grow large. In the pilot study, several short-answer tasks completed by nearly 2000 introductory tertiary statistics students were evaluated by human raters and an NLP algorithm. After briefly describing the tasks, the student contexts, the algorithm and the raters, this talk discusses the results which indicate substantial inter-rater agreement and group consensus. The talk will conclude with recent developments building upon this pilot, as well as implications for teaching and future research.
+
+### Aligning expectations for the emergent discipline of data science education
+
+*Abstract.* This talk will explore several topics related to the emergent discipline of data science education from perspective of a former industry statistician turned academic. Remarks will touch on risks of misaligned expectations as experienced by students, faculty, and employers as well as both opportunities and optimism for vibrant interdisciplinary data science programs at the undergraduate level.  The session is intended to be interactive and invites input throughout from those in attendance about challenges and perspectives for designing and implementing quality Data Science programs at the post-secondary level.
 
 ## NZSA Visiting Lecture Dates
 
@@ -23,6 +29,7 @@ output:
 - University of Otago | Ōtākou Whakaihu Waka (Dunedin, NZ)
     - 14 & 15 April, 2025
     - [Slides (PDF)]() coming soon...
+    - [Slides (PDF)]() coming soon...
 - University of Canterbury | Te Whare Wānanga o Waitaha (Christchurch, NZ)
     - 16 & 17 April, 2025
     - [Slides (PDF)]() coming soon...
@@ -31,6 +38,7 @@ output:
     - [Slides (PDF)]() coming soon...
 - Massey University | Te Kunenga ki Pūrehuroa (Palmerston North, NZ)
     - 28 & 29 April, 2025
+    - [Slides (PDF)]() coming soon...
     - [Slides (PDF)]() coming soon...
 
     
