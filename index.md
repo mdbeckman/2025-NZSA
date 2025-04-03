@@ -24,7 +24,7 @@ output:
 ## NZSA Visiting Lecture Dates
 
 - University of Auckland | Waipapa Taumata Rau (Auckland, NZ)
-    - 10 April, 2025
+    - 9 April, 2025
     - [Slides (PDF)]() coming soon...
 - University of Otago | Ōtākou Whakaihu Waka (Dunedin, NZ)
     - 14 & 15 April, 2025
