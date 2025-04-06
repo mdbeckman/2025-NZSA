@@ -451,9 +451,11 @@ How similar is feedback provided by trained humans?
 
 
 
-# Acknowledgment
+# Acknowledgments
 
-- We're grateful to the US National Science Foundation for funding this research; Project CLASSIFIES (NSF DUE-2236150).
+- US National Science Foundation (NSF DUE-2236150: Project CLASSIFIES)
+- Penn State Center for Socially Responsible Artificial Intelligence
+- Strategic partnership between University of Auckland and Penn State University
 - Thanks to students and faculty at partner institutions that have assisted us with data collection.
 
 
