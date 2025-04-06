@@ -201,6 +201,7 @@ Note: this sample was *not* a single large class at one institution; these data 
 
 - (RQ1) Instructor agreement ($\text{QWK} \approx 0.7 \text{ to } 0.8+$)
 - (RQ1) UTA agreement ($\text{QWK} \approx 0.6 \text{ to } 0.7+$)
+- What about... NLP algorithm & instructor agreement?
 <!-- - NLP algorithm agreement with instructors ($\text{QWK} \approx 0.7+$) -->
 <!-- - Human-Algorithm partnership may be even better? ($\approx 0.85+$) -->
 <!-- - Pursuing multiple avenues for grouping & feedback -->
@@ -241,8 +242,8 @@ Li, Z., Tomar, Y., & Passonneau, R. J. (2021). A Semantic Feature-Wise Transform
 
 ![Image credit: Becky Passonneau](RelationalNetwork_RJP.png)
 
-<!-- - much of the architecture inspired by work from computer vision    -->
-<!-- - more efficient than transformer networks (e.g., LLMs)   -->
+- much of the architecture inspired by work from computer vision
+- more efficient than transformer networks (e.g., LLMs)
 
 
 
@@ -270,39 +271,47 @@ Semantic Feature-Wide Transformation Relation Network (SFRN):
 <!-- - 10% of data held in reserve (test) -->
 
 
+# Results
+
+- "short-answer" tasks are good for students, but hard to scale
+- Can NLP tools help instructors give students feedback?
+    - Evaluate & group student responses
+    - Compare agreement between NLP & humans
+    - Evaluate scalable, personalized feedback solutions
+
+### Scoreboard[^1]
+
+- (RQ1) Instructor agreement ($\text{QWK} \approx 0.7 \text{ to } 0.8+$)
+- (RQ1) UTA agreement ($\text{QWK} \approx 0.6 \text{ to } 0.7+$)
+- (RQ2) NLP algorithm & instructor agreement ($\text{QWK} \approx 0.7+$)
+- What about...Human-Algorithm partnership?
+<!-- - Human-Algorithm partnership may be even better? ($\approx 0.85+$) -->
+<!-- - Pursuing multiple avenues for grouping & feedback -->
 
 
-# Results (RQ2)
-
-
-**RQ2**: What level of agreement is achieved between instructors and the machine (an NLP algorithm)?
-
-
-![Pairwise agreement with SFRN algorithm](SFRN_interraterQWK.png){width=60%}
-
-<!-- | Comparison     | Reliability | -->
-<!-- |:---------------|------------:| -->
-<!-- | Rater A & SFRN |  QWK = 0.79 | -->
-<!-- | Rater C & SFRN |  QWK = 0.82 | -->
-<!-- | Rater D & SFRN |  QWK = 0.74 | -->
-<!-- | Raters: A, C, D, & SFRN |  FK = 0.68 | -->
-
-
-\vskip 32 pt
-
-\footnotesize
-
-Reliability intuition: moderate < 0.6 < substantial < 0.8 < near perfect < 1.0
+[^1]: Lloyd, et al. (2022); Beckman, et al. (2024)
 
 
 # Human-Machine Partnership?
 
+![Image credit: https://www.slugmag.com/arts/film/film-reviews/terminator-genisys-time-is-not-on-my-side/](terminator.png){ width=90% }
+
+<!-- # Human-Machine Partnership? -->
+
+<!-- ![Image credit: https://arvrjourney.com/will-augmented-reality-glasses-replace-our-phones-3c5650acddec](glasses.png){ width=90% } -->
+
+# Human-Machine Partnership?
+
+![Image credit: Dall-E](DALLE Robot Assist.png){ width=90% }
+
+# Human-Machine Partnership?
+
+Our approach to human-in-the-loop (HIL) did not make a recommendation (e.g., Left), it just shows examples to the human when it needs help (e.g., Right).
+
+
 ```{r, echo=FALSE,out.width="49%", out.height="49%", fig.cap="Illustration adapted from Google Photos", fig.show='hold',fig.align='center'}
 knitr::include_graphics(c("GooglePhotos.png","GooglePhotoDeferral.png"))
 ```
-
-
-Our approach to human-in-the-loop (HIL) did not make a recommendation (e.g., Left), it just shows examples to the human when it needs help (e.g., Right).
 
 
 
@@ -565,5 +574,29 @@ Reliability intuition: moderate < 0.6 < substantial < 0.8 < near perfect < 1.0
 ![Intra-rater agreement (self-consistency) for each participant as measured with Quadratic Weighted Kappa (QWK) while scoring the same set of student responses on two occasions approximately 10 weeks apart.](TS2024_intraraterQWK.png){ width=30% }
 
 ![Group agreement among four undergraduate TAs and one instructor, as measured with Gwet’s (2014) AC2; 95% confidence intervals accompany each estimate.](TS2024_consensusGwet.png){ width=100% }
+
+
+# Results (RQ2)
+
+
+**RQ2**: What level of agreement is achieved between instructors and the machine (an NLP algorithm)?
+
+
+![Pairwise agreement with SFRN algorithm](SFRN_interraterQWK.png){width=60%}
+
+<!-- | Comparison     | Reliability | -->
+<!-- |:---------------|------------:| -->
+<!-- | Rater A & SFRN |  QWK = 0.79 | -->
+<!-- | Rater C & SFRN |  QWK = 0.82 | -->
+<!-- | Rater D & SFRN |  QWK = 0.74 | -->
+<!-- | Raters: A, C, D, & SFRN |  FK = 0.68 | -->
+
+
+\vskip 32 pt
+
+\footnotesize
+
+Reliability intuition: moderate < 0.6 < substantial < 0.8 < near perfect < 1.0
+
 
 
