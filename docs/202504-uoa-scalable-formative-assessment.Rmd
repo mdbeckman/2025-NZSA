@@ -302,17 +302,16 @@ Semantic Feature-Wide Transformation Relation Network (SFRN):
 
 # Human-Machine Partnership?
 
-![Image credit: Dall-E](DALLE Robot Assist.png){ width=90% }
+![Image credit: Dall-E](DALLE Robot Assist.png){ width=80% }
 
 # Human-Machine Partnership?
 
-Our approach to human-in-the-loop (HIL) did not make a recommendation (e.g., Left), it just shows examples to the human when it needs help (e.g., Right).
+Our approach to human-in-the-loop (HIL) did **not** make a recommendation (e.g., Left), it just shows examples to the human when it needs help (e.g., Right).
 
 
 ```{r, echo=FALSE,out.width="49%", out.height="49%", fig.cap="Illustration adapted from Google Photos", fig.show='hold',fig.align='center'}
 knitr::include_graphics(c("GooglePhotos.png","GooglePhotoDeferral.png"))
 ```
-
 
 
 
@@ -346,6 +345,13 @@ Want to evaluate accuracy of marking algorithm when designed to "defer" to human
 <!-- | 0.95          |  0.418         | 0.931            | -->
 
 <!-- ![](HIL-deferral.png) -->
+
+
+# Methods (RQ3)
+
+**RQ3**: What sort of NLP representation leads to good clustering performance, and how does that interact with the classification algorithm?
+
+![](open-problem.png){ width=95% }
 
 
 # Methods (RQ3)
