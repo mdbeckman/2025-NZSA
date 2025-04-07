@@ -444,6 +444,13 @@ see, e.g., U.S. Department of Education, Office of Educational Technology (2023)
     - Viability for feedback is still a long road
 
 
+# Feedback: Guided Reflection
+
+<!-- ![](FB-team-cj.png) -->
+
+![](cj-schematic.png){ width=50% }
+
+
 # Discussion
 
 - **RQ1**: Substantial agreement achieved among trained human raters provides context for further comparisons
