@@ -172,18 +172,19 @@ knitr::include_graphics(c("OddForm.png","EvenForm.png"))
 ![Beckman et al., (2024) Project Team](SU24_Team.png){width=80%}
 
 
-# Methods (Data Set)
+<!-- # Methods (Data Set) -->
 
-Study utilized de-identified extant data & scoring rubrics (Beckman, 2015)
+<!-- Study utilized de-identified extant data & scoring rubrics (Beckman, 2015) -->
 
-- 6 short-answer tasks
-- 1,935 students total
-- 29 class sections 15 distinct institutions
+<!-- - 6 short-answer tasks -->
+<!-- - 1,935 students total -->
+<!-- - 29 class sections 15 distinct institutions -->
 
 
-Note: this sample was *not* a single large class at one institution; these data include introductory statistics students from many class sections at many institutions--some large, others small.
+<!-- Note: this sample was *not* a single large class at one institution; these data include introductory statistics students from many class sections at many institutions--some large, others small. -->
 
-![image created with assistance of DALL·E 2 by Open AI](DALLE exam.png){ width=25% }
+<!-- ![image created with assistance of DALL·E 2 by Open AI](DALLE exam.png){ width=25% } -->
+
 
 # Methods (Short-answer task)
 
@@ -444,11 +445,29 @@ see, e.g., U.S. Department of Education, Office of Educational Technology (2023)
     - Viability for feedback is still a long road
 
 
-# Feedback: Guided Reflection
+# Feedback: Guided Reflection with Comparative Judgment
 
 <!-- ![](FB-team-cj.png) -->
 
-![](cj-schematic.png){ width=50% }
+\begin{columns}
+  \begin{column}{0.45\textwidth}
+    \includegraphics[width=\linewidth]{cj-schematic.png}
+  \end{column}
+  \begin{column}{0.55\textwidth}
+    \includegraphics[width=\linewidth]{FB-team-cc.png}
+    \begin{itemize}
+      \item Capture all student responses
+      \item Review set of peer responses
+      \item Rank most to least developed
+      \item Write peer feedback
+      \item (repeat for a few sets)
+      \item Review peer feedback to \textbf{yours}
+      \item Update your initial response?
+    \end{itemize}
+  \end{column}
+\end{columns}
+
+<!-- ![](cj-schematic.png){ width=50% } -->
 
 
 # Discussion
@@ -468,29 +487,18 @@ see, e.g., U.S. Department of Education, Office of Educational Technology (2023)
 # Current Events
 
 - challenge system with diverse tasks, institutions, student populations;
-    - partnering with ISU, MSU, PSU, UCSB, UF, & UTEP
-    - two "consensus" tasks implemented by all
-    - 2-3 local tasks at each institution
-    - (so far) approx 22,300 responses from ~ 13,000 students
-- robustness toward languistic diversity (HSI & NZ data)
+    - partnering with ISU, MSU, PSU, UCSB, UF, UTEP, & UoA (NZ)
+    - both "consensus" tasks & "local" tasks
+    - approx 44,000 responses from ~ 13,000 students
+    - targeting languistic diversity
 - accumulated data to be shared with broader NLP community
     - this will be among the largest *open* data sources of it's kind
     - addresses barriers imposed by proprietary data sources on NLP research
 - algorithm development 
     - contrastive loss function
-    - correct answers are similar; there are a few distinct ways to earn partial credit; there are many diffuse ways to be incorrect
     - accommodates more complex task structure
-    - impact of response length
-
-<!-- - After consent; approx 22,300 responses from ~ 13,000 students -->
-<!-- ISU = 468 + 362 + 249 + 205 =  1280   -->
-<!-- MSU = 2170 + 1141 = 3309  -->
-<!-- PSU = 1191 + 1173 + 1187 + 1188 = 4735 -->
-<!-- UF = 1300 + 1521 = 1819   -->
-<!-- UTEP = 55 + 49 = 102    -->
-<!-- Consensus = 2419 + 1872 + 1175 + 2725 + 1072 = 9263 -->
-<!-- ISTUDIO = 6 * 299 = 1794 -->
-
+    - impact of response length 
+    - studying influence of rubric features (Wei et al, in review)
 
 
 
