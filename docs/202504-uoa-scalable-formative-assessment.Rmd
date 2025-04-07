@@ -308,7 +308,6 @@ Semantic Feature-Wide Transformation Relation Network (SFRN):
 <!-- - Pursuing multiple avenues for grouping & feedback -->
 
 
-[^1]: Lloyd, et al. (2022); Beckman, et al. (2024)
 
 
 # Human-Machine Partnership?
@@ -375,16 +374,6 @@ Want to evaluate accuracy of marking algorithm when designed to "defer" to human
 <!-- Notes: reasonable first attempt to study the way instructors might do it and build tools to streamline at scale -->
 
 
-# Methods (RQ3)
-
-**RQ3**: What sort of NLP representation leads to good clustering performance, and how does that interact with the classification algorithm?
-
-- Method: Rinse & repeat! 
-    - Study the way instructors might do it and build tools to streamline at scale
-    - How consistent are humans?
-    - Can our NLP tools achieve results as good or better than humans?
-- Result: *Cursed??*
-
 
 # Let's talk about Feedback...
 
@@ -395,18 +384,56 @@ Want to evaluate accuracy of marking algorithm when designed to "defer" to human
 
 # Feedback Avenues 
 
-Give up and just let AI do it?
+- Just let AI do it?
+- Classifier / Clustering Tools?
+- Topological Data Analysis Tools?
+- Something completely different?
+
+
+
+# {.plain}
+
+<!-- \noindent\hspace*{-1cm}\includegraphics[width=\paperwidth]{terminator.png}  -->
+
+
+![Image credit: https://www.slugmag.com/arts/film/film-reviews/terminator-genisys-time-is-not-on-my-side/](terminator.png){ width=100% }
+
+
+# Feedback: Just let AI do it
 
 - undermines instructor benefits of formative assessment
 - conflicts with goal statement (e.g., amplify, not supplant, instructor effort)
-- also, see U.S. Department of Education, Office of Educational Technology (2023). Artificial Intelligence and Future of Teaching and Learning: Insights and Recommendations, Washington, DC. 
+- additional concerns...
+
+see, e.g., U.S. Department of Education, Office of Educational Technology (2023). *Artificial Intelligence and Future of Teaching and Learning: Insights and Recommendations*, Washington, DC. 
 
 
 # Feedback Avenues 
 
+- ~~Just let AI do it~~  ...too dystopian 
+- Classifier / Clustering Tools?  ...cursed? 
+- Topological Data Analysis Tools?  ...interesting, but long road
+- Something completely different? 
 
 
 
+# Feedback: Classifier / Clustering Tools
+
+
+**RQ3**: What sort of NLP representation leads to good clustering performance, and how does that interact with the classification algorithm?
+
+
+
+- Method: Rinse & repeat! 
+    - Study the way instructors might do it and build tools to streamline at scale
+    - How consistent are humans?
+    - Can our NLP tools achieve results as good or better than humans?
+- Result: *Cursed??*
+
+
+# Feedback: Topological Data Analysis Tools
+
+- 
 
 
 # Discussion
