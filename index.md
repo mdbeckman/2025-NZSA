@@ -11,6 +11,25 @@ output:
     css: stylesheet.css
 ---
 
+## NZSA Visiting Lecture Dates
+
+- University of Auckland | Waipapa Taumata Rau (Auckland, NZ)
+    - 9 April, 2025
+    - [Seminar Page (link)](https://mdbeckmantemp.github.io/2025-NZSA-Auckland/)
+- University of Otago | Ōtākou Whakaihu Waka (Dunedin, NZ)
+    - 14 & 15 April, 2025
+    - [Seminar Page (link)](https://mdbeckmantemp.github.io/2025-NZSA-Otago/) 
+- University of Canterbury | Te Whare Wānanga o Waitaha (Christchurch, NZ)
+    - 16 & 17 April, 2025
+    - [Seminar Page (link))](https://mdbeckmantemp.github.io/2025-NZSA-Canterbury/) coming soon...
+- Victoria University | Te Herenga Waka (Wellington, NZ)
+    - 23 & 24 April, 2025
+    - [Seminar Page (link)](https://mdbeckmantemp.github.io/2025-NZSA-Victoria/) coming soon...
+- Massey University | Te Kunenga ki Pūrehuroa (Palmerston North, NZ)
+    - 28 & 29 April, 2025
+    - [Seminar Page (link)](https://mdbeckmantemp.github.io/2025-NZSA-Massey/) coming soon...
+
+
 ## Seminar Topics
 
 ### Evaluating NLP tools designed to assist instructors with formative assessment for large-enrollment STEM classes
@@ -20,24 +39,6 @@ output:
 ### Aligning expectations for the emergent discipline of data science education
 
 *Abstract.* This talk will explore several topics related to the emergent discipline of data science education from perspective of a former industry statistician turned academic. Remarks will touch on risks of misaligned expectations as experienced by students, faculty, and employers as well as both opportunities and optimism for vibrant interdisciplinary data science programs at the undergraduate level.  The session is intended to be interactive and invites input throughout from those in attendance about challenges and perspectives for designing and implementing quality Data Science programs at the post-secondary level.
-
-## NZSA Visiting Lecture Dates
-
-- University of Auckland | Waipapa Taumata Rau (Auckland, NZ)
-    - 9 April, 2025
-    - [Seminar Page (link)](https://mdbeckmantemp.github.io/2025-NZSA-Auckland/)
-- University of Otago | Ōtākou Whakaihu Waka (Dunedin, NZ)
-    - 14 & 15 April, 2025
-    - [Seminar Page (link)]() coming soon...
-- University of Canterbury | Te Whare Wānanga o Waitaha (Christchurch, NZ)
-    - 16 & 17 April, 2025
-    - [Seminar Page (link))]() coming soon...
-- Victoria University | Te Herenga Waka (Wellington, NZ)
-    - 23 & 24 April, 2025
-    - [Seminar Page (link)]() coming soon...
-- Massey University | Te Kunenga ki Pūrehuroa (Palmerston North, NZ)
-    - 28 & 29 April, 2025
-    - [Seminar Page (link)]() coming soon...
 
 
     
