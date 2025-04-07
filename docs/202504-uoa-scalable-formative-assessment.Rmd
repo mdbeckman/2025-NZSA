@@ -413,27 +413,35 @@ see, e.g., U.S. Department of Education, Office of Educational Technology (2023)
 - ~~Just let AI do it~~  ...too dystopian 
 - Classifier / Clustering Tools?  ...cursed? 
 - Topological Data Analysis Tools?  ...interesting, but long road
-- Something completely different? 
+- Guided Reflection? 
 
 
 
 # Feedback: Classifier / Clustering Tools
 
+![](FB-team-cc.png){ width=95% }
 
 **RQ3**: What sort of NLP representation leads to good clustering performance, and how does that interact with the classification algorithm?
-
 
 
 - Method: Rinse & repeat! 
     - Study the way instructors might do it and build tools to streamline at scale
     - How consistent are humans?
     - Can our NLP tools achieve results as good or better than humans?
-- Result: *Cursed??*
+- Result: Respectable (but possibly *cursed?*)
 
 
 # Feedback: Topological Data Analysis Tools
 
-- 
+![](FB-team-tda.png){ width=80% }
+
+- Dimension 0 TDA is akin to cluster analysis
+- Dimension 1 introduces "holes" 
+- Higher dimensions (e.g., voids) possible
+- **Results:**
+    - Ongoing work
+    - Promising work for NLP application of TDA, broadly
+    - Viability for feedback is still a long road
 
 
 # Discussion
