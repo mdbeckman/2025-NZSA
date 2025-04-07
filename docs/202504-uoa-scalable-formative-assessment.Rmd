@@ -83,18 +83,37 @@ knitr::include_graphics(c("OddForm.png","EvenForm.png"))
 ![image created with assistance of DALL·E 2 by Open AI](DALLE Robot Assist.png){width=40%}
 
 
+# Goal {.plain}
 
-# Goal
+\noindent\hspace*{-1cm}\includegraphics[width=\paperwidth]{goal-1-tech.png} 
 
 
-*Develop technology that can assist instructors for large (STEM) classes with providing targeted formative assessment feedback to students, such that instructor burden is similar to small class (~30 students)*
 
->- **Technology**: Natural Language Processing (NLP)
->- **Large classes**: Hundreds of simultaneous students
->- **Formative assessment**: e.g., Low-stakes check-for-understanding prompt
->- **Targeted feedback**: Timely and personalized
->- **Burden**: typical effort of an engaged instructor
->- **Assist instructors**: Amplifies (rather than supplants) instructor effort
+# Goal {.plain}
+
+\noindent\hspace*{-1cm}\includegraphics[width=\paperwidth]{goal-2-largeClass.png} 
+
+
+# Goal {.plain}
+
+\noindent\hspace*{-1cm}\includegraphics[width=\paperwidth]{goal-3-formative.png} 
+
+
+# Goal {.plain}
+
+\noindent\hspace*{-1cm}\includegraphics[width=\paperwidth]{goal-4-targetedFB.png} 
+
+
+# Goal {.plain}
+
+\noindent\hspace*{-1cm}\includegraphics[width=\paperwidth]{goal-5-burden.png} 
+
+
+# Goal {.plain}
+
+\noindent\hspace*{-1cm}\includegraphics[width=\paperwidth]{goal-6-assist.png} 
+
+
 
 
 # Back to our example...
@@ -353,57 +372,40 @@ Want to evaluate accuracy of marking algorithm when designed to "defer" to human
 
 ![](open-problem.png){ width=95% }
 
+<!-- Notes: reasonable first attempt to study the way instructors might do it and build tools to streamline at scale -->
+
 
 # Methods (RQ3)
 
-How similar is feedback provided by trained humans?
-
-- Experiment #1: Humans
-    - Two reviewers independently evaluated 100 "partial credit" responses
-    - Each reviewer provided free-text feedback to each student
-    - Verbatim feedback captured for each reviewer and cross-tabulated for analysis.
-
-
-- Experiment #1: NLP Tools
-    - retrain k-means & k-mediods clustering & evaluate stability
-    - compare representations with higher & lower dimensionality
-
-- Experiment #2
-    - if feedback labels are pre-determined, how consistently are they applied?
-    - (i.e., ~~clustering~~ => FB Classifier??)
-    - Both Humans & NLP Tools attempt
-    - New tool "AsRRN" (Li, Lloyd, Beckman, & Passonneau, 2023)
-
-
-
-
-# Results (RQ3 humans)
-
-![Cross-tabulation of feedback distribution for the two reviewers for the initial feedback (left) compared with the same analysis for the portion of feedback related to the statistical concept at issue (right).](ConfusionMatrices_Q2B.png){width=95%}
-
-- Reviewer 1 favored feedback on statistical concepts (only).
-- Reviewer 2 provided same, plus a quote from the student
-- Reviewer 2 parsed feedback to compare remarks related to the statistical concepts (only) with that of Reviewer 1.
-
-# Results (RQ3 humans)
-
-![Verbatim feedback most frequently provided by each reviewer for responses to task 2B.](verbatim-feedback.png){ width=95% }
-
-# Results (RQ3 machines)
-
 **RQ3**: What sort of NLP representation leads to good clustering performance, and how does that interact with the classification algorithm?
 
-- SFRN (D = 512) produced reasonably consistent clusters when retrained (0.62)
-- Highest consistency (0.88; D = 50) was achieved using a matrix factorization method that produces static representations (WTMF; Guo & Diab, 2011)
+- Method: Rinse & repeat! 
+    - Study the way instructors might do it and build tools to streamline at scale
+    - How consistent are humans?
+    - Can our NLP tools achieve results as good or better than humans?
+- Result: *Cursed??*
 
-- AsRRN compared to humans (A & B) grouping students by pre-determined feedback categories:
 
-!["Feedback as a classifier" assuming prepopulated remarks](FB_classifier.png)
+# Let's talk about Feedback...
 
-<!-- | Task | Sample Size | A & B  | A & AsRRN | B & AsRRN | -->
-<!-- |:-----|:-----------:|:------:|:---------:|:---------:| -->
-<!-- | 1    |  90         | 0.71   |   0.53    |   0.69    | -->
-<!-- | 2    |  100        | 0.45   |   0.70    |   0.41    | -->
+*Develop technology that can assist instructors for large (STEM) classes with providing targeted formative assessment feedback to students, such that instructor burden is similar to small class (~30 students)*
+
+![Big "O" for Open Problem](open-problem.png){ width=95% }
+
+
+# Feedback Avenues 
+
+Give up and just let AI do it?
+
+- undermines instructor benefits of formative assessment
+- conflicts with goal statement (e.g., amplify, not supplant, instructor effort)
+- also, see U.S. Department of Education, Office of Educational Technology (2023). Artificial Intelligence and Future of Teaching and Learning: Insights and Recommendations, Washington, DC. 
+
+
+# Feedback Avenues 
+
+
+
 
 
 
@@ -413,7 +415,6 @@ How similar is feedback provided by trained humans?
 
 - **RQ2**: NLP algorithm produced agreement reasonably aligned to results achieved by pairs/groups of trained human raters
     - Human-in-the-Loop >> Instructor / Algorithm partnership
-
 
 - **RQ3**: Promising results based on "man-made clusters" but classification and clustering have competing incentives when it comes to dimensionality of NLP vector representations
     - Lower Dim is generally better for cluster stability
@@ -605,6 +606,70 @@ Reliability intuition: moderate < 0.6 < substantial < 0.8 < near perfect < 1.0
 \footnotesize
 
 Reliability intuition: moderate < 0.6 < substantial < 0.8 < near perfect < 1.0
+
+
+
+# Methods (RQ3): Humans
+
+How similar is feedback provided by two instructors for some group of students?
+
+- Two instructors independently evaluated 100 "partial credit" responses
+- Each instructor provided free-text feedback to each student
+- Verbatim feedback captured for each instructor and cross-tabulated for analysis.
+- *Results:* 
+    - The two instructors gave substantially equivalent feedback to 66 of 100 responses
+    - Evidence of two large "clusters" (and quite a few singletons)
+
+
+# Methods (RQ3): Machines
+
+- Experiment #1 
+    - retrain k-means & k-mediods clustering & evaluate stability
+    - compare representations with higher & lower dimensionality
+    - **Results:** 
+        - SFRN (D = 512): cluster stability 0.62
+        - Highest stability among competing algorithms was 0.88, achieved using a matrix factorization method that produces static representations (D = 50; WTMF; Guo & Diab, 2011)
+        - *cursed*
+
+
+- Experiment #2: 
+    - ~~clustering~~ => FB Classifier?
+    - Both Humans & Machines attempt
+    - **Results:**
+        - NLP Algorithm was more consistent with instructor A on one task and instructor B on the other task tested.
+        - *meh*
+
+
+# Results (RQ3 humans)
+
+![Cross-tabulation of feedback distribution for the two reviewers for the initial feedback (left) compared with the same analysis for the portion of feedback related to the statistical concept at issue (right).](ConfusionMatrices_Q2B.png){width=95%}
+
+- Reviewer 1 favored feedback on statistical concepts (only).
+- Reviewer 2 provided same, plus a quote from the student
+- Reviewer 2 parsed feedback to compare remarks related to the statistical concepts (only) with that of Reviewer 1.
+
+# Results (RQ3 humans)
+
+![Verbatim feedback most frequently provided by each reviewer for responses to task 2B.](verbatim-feedback.png){ width=95% }
+
+
+
+
+# Results (RQ3 machines)
+
+**RQ3**: What sort of NLP representation leads to good clustering performance, and how does that interact with the classification algorithm?
+
+- SFRN (D = 512) produced reasonably consistent clusters when retrained (0.62)
+- Highest consistency (0.88; D = 50) was achieved using a matrix factorization method that produces static representations (WTMF; Guo & Diab, 2011)
+
+- AsRRN compared to humans (A & B) grouping students by pre-determined feedback categories:
+
+!["Feedback as a classifier" assuming prepopulated remarks](FB_classifier.png)
+
+<!-- | Task | Sample Size | A & B  | A & AsRRN | B & AsRRN | -->
+<!-- |:-----|:-----------:|:------:|:---------:|:---------:| -->
+<!-- | 1    |  90         | 0.71   |   0.53    |   0.69    | -->
+<!-- | 2    |  100        | 0.45   |   0.70    |   0.41    | -->
 
 
 
