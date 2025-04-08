@@ -1,5 +1,5 @@
-# Technology Enhanced Mathematical Sciences Education (TEMSE) Seminar (Edinburgh, UK)
+# New Zealand Statistical Association Visiting Lecture Series
 
-Materials prepared for TEMSE Seminar Series of the Maxwell Institute at the University of Edinburgh (UK) on November 20, 2024
+Materials prepared for NZSA Visiting Lecturer Series <https://www.stats.org.nz/nzsa-visiting-lecturers/>
 
-Here's a landing page for the presentation materials: <https://mdbeckman.github.io/TEMSE2024/>
+Here's a landing page for the 2025 dates and presentation materials: <https://mdbeckmantemp.github.io/2025-NZSA/>
