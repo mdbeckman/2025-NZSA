@@ -21,13 +21,13 @@ output:
     - [Seminar Page (link)](https://mdbeckmantemp.github.io/2025-NZSA-Otago/) 
 - University of Canterbury | Te Whare Wānanga o Waitaha (Christchurch, NZ)
     - 16 & 17 April, 2025
-    - [Seminar Page (link))](https://mdbeckmantemp.github.io/2025-NZSA-Canterbury/) coming soon...
-- Victoria University | Te Herenga Waka (Wellington, NZ)
+    - [Seminar Page (link)](https://mdbeckmantemp.github.io/2025-NZSA-Canterbury/) 
+- Victoria University of Wellington | Te Herenga Waka (Wellington, NZ)
     - 23 & 24 April, 2025
-    - [Seminar Page (link)](https://mdbeckmantemp.github.io/2025-NZSA-Victoria/) coming soon...
+    - [Seminar Page (link)](https://mdbeckmantemp.github.io/2025-NZSA-Victoria/) 
 - Massey University | Te Kunenga ki Pūrehuroa (Palmerston North, NZ)
     - 28 & 29 April, 2025
-    - [Seminar Page (link)](https://mdbeckmantemp.github.io/2025-NZSA-Massey/) coming soon...
+    - [Seminar Page (link)](https://mdbeckmantemp.github.io/2025-NZSA-Massey/) 
 
 
 ## Seminar Topics
